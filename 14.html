@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FACE Prep Layout</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      .header {
+        background-color: #ff6600;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        min-height: calc(100vh - 120px);
+      }
+      .box {
+        flex: 1;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .box1 {
+        background-color: #fff3e6;
+      }
+      .box2 {
+        background-color: #e6f2ff;
+      }
+      .box3 {
+        background-color: #e6ffe6;
+      }
+
+      .footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 15px;
+      }
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>FACE Prep</h1>
+      <p>India’s Leading Placement Preparation Platform</p>
+    </div>
+
+    <div class="container">
+      <div class="box box1">
+        <h2>Aptitude Training</h2>
+        <p>
+          Master quantitative, logical, and verbal aptitude with expert-led
+          sessions.
+        </p>
+      </div>
+
+      <div class="box box2">
+        <h2>Coding & DSA</h2>
+        <p>
+          Learn coding, data structures, and algorithms for top tech companies.
+        </p>
+      </div>
+
+      <div class="box box3">
+        <h2>Mock Interviews</h2>
+        <p>Practice with real company-level mock interviews and assessments.</p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy;2026 FACE Prep. All rights reserved.</p>
+    </div>
+  </body>
+</html>
